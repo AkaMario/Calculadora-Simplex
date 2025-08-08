@@ -17,8 +17,9 @@
     <h2>🧭 Estructura esperada del repo</h2>
     <pre>root/
 ├─ simplex_api/           ← backend Django (proyecto + app)
+|  ├─simplex/     
 │  ├─ manage.py
-│  └─ requirements.txt    ← dependencias del backend
+│  └─ simplex_api/    ← dependencias del backend
 └─ simplex_web/           ← frontend Vite + React + TS
    ├─ index.html
    ├─ package.json
